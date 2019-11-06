@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	config "github.com/go-workflow/go-workflow/workflow-config"
-	controller "github.com/go-workflow/go-workflow/workflow-controller"
-	model "github.com/go-workflow/go-workflow/workflow-engine/model"
-	"github.com/go-workflow/go-workflow/workflow-engine/service"
+	config "github.com/compty001/go-workflow/workflow-config"
+	controller "github.com/compty001/go-workflow/workflow-controller"
+	model "github.com/compty001/go-workflow/workflow-engine/model"
+	"github.com/compty001/go-workflow/workflow-engine/service"
 )
 
 func crossOrigin(h http.HandlerFunc) http.HandlerFunc {
