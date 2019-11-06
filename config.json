@@ -1,5 +1,5 @@
 {
-  "Port": "8080",
+  "Port": "8762",
   "ReadTimeout": "5",
   "WriteTimeout": "5",
   "DbLogMode": "true",
@@ -8,9 +8,9 @@
   "DbHost": "localhost",
   "DbPort": "3306",
   "DbUser": "root",
-  "DbPassword": "123",
+  "DbPassword": "12345678",
   "DbMaxIdleConns": "5",
-  "DbMaxOpenConns": "100",
+  "DbMaxOpenConns": "20",
   "RedisCluster": "false",
   "RedisHost": "localhost",
   "RedisPort": "6379",
